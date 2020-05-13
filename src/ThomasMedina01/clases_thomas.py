@@ -5,7 +5,7 @@ class Carro():
         self.año = año
     
     def imprimirInfo(self):
-        print(f"El carro es un modelo {modelo} de la marca {marca} del año {año}")
+        print(f"El carro es un modelo {self.modelo} de la marca {self.marca} del año {self.año}")
 
 
 class Motocicleta():
@@ -15,7 +15,7 @@ class Motocicleta():
         self.año = año
     
     def imprimirInfo(self):
-        print(f"La Motocicleta es un modelo {modelo} de la marca {marca} del año {año}")
+        print(f"La Motocicleta es un modelo {self.modelo} de la marca {self.marca} del año {self.año}")
 
 
 class Pantalon():
@@ -25,4 +25,4 @@ class Pantalon():
         self.material = material
     
     def imprimirInfo(self):
-        print(f"El pantalon es de color {color} de la marca {marca} y esta hecho de {material}")
+        print(f"El pantalon es de color {self.color} de la marca {self.marca} y esta hecho de {self.material}")
