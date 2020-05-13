@@ -4,5 +4,5 @@ class Perro():
             self.raza = raza
 
         def imprimirInfo(self):
-            print(f"Nombre: {self.nombre} Raza: {self.raza}")
+            print(f"Nombre: {self.nombre}\nRaza: {self.raza}")
         
