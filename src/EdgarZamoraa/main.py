@@ -1,5 +1,15 @@
 from clasess import *
 
+print("")
+print("--------------------MARCADOR---------------------")
 marcador = Marcador("sharpie",199,"Negro")
-
 marcador.imprimirinfo()
+print("")
+print("--------------------ZAPATO---------------------")
+zapato = Zapato("Azul con negro",2699,"NIKE")
+zapato.imprimirinfo()
+print("")
+print("--------------------AUTOMOVIL---------------------")
+auto = Automovil("negro",8,"Cadillac Brougham Fleetwood")
+auto.imprimirinfo()
+print("")
