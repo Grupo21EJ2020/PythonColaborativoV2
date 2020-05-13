@@ -13,3 +13,10 @@ class Bicicleta():
         self.categoria=categoria
     def imprimirInfo(self):
         print(f'Color: {self.color}, Modelo: {self.modelo}, Categoria: {self.categoria}')
+
+class Perfume():
+    def__init__(self,marca,edicion):
+        self.marca=marca
+        self.edicion=edicion
+    def imprimirInfo(self):
+        print(f'Marca: {self.marca}, Edicion: {self.edicion}')
