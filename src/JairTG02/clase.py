@@ -13,4 +13,13 @@ class Jersey ():
          self.equipo = equipo
     def imprimirInfo (self):
         print(f'Marca: {self.marca}, Talla : {self.talla}, Equipo: {self.equipo}')
+
+class Equipo ():
+    def __init__(self, deporte, añoFundacion, campeonatos):
+        self.deporte = deporte
+        self.añoFundacion = añoFundacion
+        self.campeonatos = campeonatos
+    def imprimirInfo (self):
+        print(f'Deporte:{self.deporte}, Año de Fundacion:{self.añoFundacion}, Campeonatos: {self.campeonatos}')
         
+
