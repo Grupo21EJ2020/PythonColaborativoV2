@@ -1,4 +1,4 @@
-from MICODIGO import (LigasDeFut,Equipo,Titulos)
+from MICODIGO import LigasDeFut,Equipo,Titulos
 
 LigaFut = LigasDeFut("LigaMx")
 LigaFut.imprimirinfo()
