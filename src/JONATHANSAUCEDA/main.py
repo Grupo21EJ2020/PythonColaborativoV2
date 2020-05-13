@@ -1,9 +1,9 @@
-from clases import * 
+from MICODIGO import (LigasDeFut,Equipo,Titulos)
 
-LigaFut = LigaDeFut('LigaMx')
+LigaFut = LigasDeFut("LigaMx")
 LigaFut.imprimirinfo()
 
-Equipos = Equipo('TigresUANL')
+Equipos = Equipo("TigresUANL")
 Equipos.imprimirinfo()
 
 Campeonatos = Titulos(7)
