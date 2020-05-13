@@ -1,4 +1,4 @@
-class Rollo():
+class Rollodepapel():
     def __init__(self, marca, precio, canthojas):
         self.marca = marca
         self.precio = precio
