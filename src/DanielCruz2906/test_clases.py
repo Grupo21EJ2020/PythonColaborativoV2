@@ -1,6 +1,6 @@
 from clases import *
 
-Auto = Automovil("Toyota",2300,2004)
+Auto = Automovil("Toyota","2300","2004")
 Auto.imprimirinfo()
 
 Compu = Computadora("intel","nvidia","8gb")
