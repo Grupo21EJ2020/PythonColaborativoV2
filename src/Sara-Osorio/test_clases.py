@@ -1,10 +1,10 @@
 from clases import FlorFav
 
-florfavProgra = FlorFav('Tulipan',Todos)
-florfavProgra.imprimirinfo()
+miFlorfav = FlorFav("Tulipan",Todos)
+miFlorfav.imprimirinfo()
 
-computadoraProgra = Computadora('HP',8099)
+computadoraProgra = Computadora("Vaio",8000)
 computadoraProgra.imprimirinfo()
 
-shampooProgra = Shampoo('Head Shouders',97)
-shampooProgra.imprimirinfo()
+miShampoo = Shampoo("Head Shouders",97)
+miShampoo.imprimirinfo()
