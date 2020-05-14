@@ -1,0 +1,10 @@
+from clases_diegoalz import Automovil, Camisa, serie
+print("Caracteristicas del automovil: ")
+ferrari = Automovil("488_GTB", 10000000)
+ferrari.imprimirinfo()
+print("Caracteristicas de la camiseta: ")
+pedido = Camisa("Lacoste", 200, "M")
+pedido.imprimirinfo()
+print("Datos de la serie: ")
+estrenos = serie("Mandalorian", "Aventuras", "20/06/2020" )
+estrenos.imprimirinfo()
