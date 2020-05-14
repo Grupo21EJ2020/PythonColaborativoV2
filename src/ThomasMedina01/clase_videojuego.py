@@ -5,4 +5,4 @@ class Videojuego():
         self.formato = formato
     
     def imprimirInfo(self):
-        print(f"El titulo del videojuego es {self.titulo}, esta disponible en {self.plataforma} y esta en formato{self.formato}")
+        print(f"El titulo del videojuego es {self.titulo}, esta disponible en {self.plataforma} y esta en formato {self.formato}")
