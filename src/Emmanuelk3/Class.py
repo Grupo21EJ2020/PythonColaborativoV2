@@ -33,6 +33,5 @@ class Mouse():
         self.Tamaño = Tamaño
         self.Numerodevelocidades = Numerodevelocidades
 
-  def imprimirinfo(self):
-      print(f"Tamaño: {self.Tamaño} Numerodevelocidades: {self.Numerodevelocidades})
-      
+    def imprimirinfo(self):
+        print(f"Tamaño: {self.Tamaño} Numerodevelocidades: {self.Numerodevelocidades}")
