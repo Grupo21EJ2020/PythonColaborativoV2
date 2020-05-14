@@ -4,3 +4,5 @@ class Telefono():
         self.Precio = Precio
         self.Color = Color
         
+    def imprimirinfo(self):
+        print(f"Marca: [self.marca] Precio: [Self.Precio]")
