@@ -1,0 +1,2 @@
+Este archivo solo es de ayuda 
+Codigo de ruta: python ./src/jdnc21/main.py
