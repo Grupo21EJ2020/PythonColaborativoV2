@@ -5,4 +5,7 @@ class Computadora():
         self.numserie = numserie 
         self.nummodelo = nummodelo 
         self.precio = precio
+
+    def imprimirinfo(self):
+        print(f"Marca: {self.marca} Nombre: {self.nombre} NumSerie: {self.numserie} NumModelo: {self.nummodelo} Precio {self.precio}")
          
