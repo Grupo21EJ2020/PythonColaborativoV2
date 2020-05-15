@@ -1,2 +1,0 @@
-# Esta es la ruta para probar el codigo: python ./src/jdnc21/<nombre del archivo y su extension
-# Solo es de apoyo 
