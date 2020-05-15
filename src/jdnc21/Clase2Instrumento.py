@@ -4,4 +4,4 @@ class Instrumento():
         self.nombre = nombre 
         self.iproducto = idproducto  
         self.precio = precio
-        self.precio = categoria
+        self.categoria = categoria
