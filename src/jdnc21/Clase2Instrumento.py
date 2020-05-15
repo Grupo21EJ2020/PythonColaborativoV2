@@ -5,3 +5,6 @@ class Instrumento():
         self.idproducto = idproducto  
         self.precio = precio
         self.categoria = categoria
+
+    def imprimirinfo(self):
+        print(f"Marca: {self.marca} Nombre: {self.nombre} IdProducto: {self.idproducto} Precio: {self.precio} Categoria {self.categoria}")
