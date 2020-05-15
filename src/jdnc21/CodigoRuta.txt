@@ -1,2 +1,3 @@
-Este archivo solo es de ayuda 
+Este archivo solo es de ayuda para "MI"
 Codigo de ruta: python ./src/jdnc21/main.py
+Dos veces carpeta PythonColaborativoV2
