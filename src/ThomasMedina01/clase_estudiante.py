@@ -5,4 +5,4 @@ class Estudiante():
         self.promedio = promedio
     
     def imprimirInfo(self):
-        print(f"El nombre del estudiante es {self.nombre}, su matricula es {self.matricula} y tiene un promedio general de {self.promedio}.")
+        print(f"El estudiante se llama {self.nombre}, su matricula es {self.matricula} y tiene un promedio general de {self.promedio}.")
