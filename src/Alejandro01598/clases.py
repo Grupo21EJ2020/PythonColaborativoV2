@@ -13,3 +13,11 @@ class Alumno():
         
     def imprimirinfo(self):
         print(f"Carrera : {self.carrera} Semestre:{self.semestre}")
+
+class Pelicula():
+    def _init_(self,titulo,genero):
+        self.titulo=titulo
+        self.genero=genero
+
+    def imprimirinfo(self):
+        print(f"Titulo: {self.titulo} Genero:{self.genero}")
