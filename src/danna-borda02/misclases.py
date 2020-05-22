@@ -13,3 +13,11 @@ class zapatos():
 
     def imprimirinfo(self):
         print(f"talla: {self.talla} color: {self.color")
+
+class libro():
+    def __init__ (self, tamaño, materia)
+        self.tamaño = tamaño
+        self.materia = materia 
+
+    def imprimirinfo(self):
+        print(f"tamaño: {self.tamaño} materia {self.materia")
