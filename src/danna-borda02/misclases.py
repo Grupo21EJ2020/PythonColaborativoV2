@@ -5,3 +5,11 @@ class Libretas():
 
     def imprimirinfo(self):
         print(f"Hojas: {self.hojas} tipo: {self.tipo}")
+
+class zapatos():
+    def __init__ (self, talla, color)
+        self.talla = talla
+        self.color = color 
+
+    def imprimirinfo(self):
+        print(f"talla: {self.talla} color: {self.color")
