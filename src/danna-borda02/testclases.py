@@ -1,14 +1,14 @@
 from misclases import Libretas
-from misclases import zapatos
-from misclases import libro
+from misclases import Zapatos
+from misclases import Libro
 print("Caracteristicas de libretas: ")
 Libretas = Libretas(100, "resorte")
 Libretas.imprimirinfo()
 
 print("Caracteristicas de zapatos: ")
-zapatos= zapatos(23 , "negros")
-zapatos.imprimirinfo()
+Zapatos= Zapatos(23 , "negros")
+Zapatos.imprimirinfo()
 
-print("Datos de la libro: ")
-libro = libro("Grande", "Programacion" )
-libro.imprimirinfo()
+print("Datos del Libro: ")
+Libro = libro("Grande", "Programacion" )
+Libro.imprimirinfo()
