@@ -6,7 +6,7 @@ class Libretas():
     def imprimirinfo(self):
         print(f"Hojas: {self.hojas} tipo: {self.tipo}")
 
-class zapatos():
+class Zapatos():
     def __init__ (self, talla, color):
         self.talla = talla
         self.color = color 
@@ -14,7 +14,7 @@ class zapatos():
     def imprimirinfo(self):
         print(f"talla: {self.talla} color: {self.color")
 
-class libro():
+class Libro():
     def __init__ (self, tamaño, materia):
         self.tamaño = tamaño
         self.materia = materia 
