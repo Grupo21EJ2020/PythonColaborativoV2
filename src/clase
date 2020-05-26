@@ -1,0 +1,7 @@
+clase  Carro ():
+    def  __init__ ( self , marca , nombrecarro )
+        auto . marca  =  marca
+        auto . nombrecarro  =  nombrecarro
+        auto. colorcarro = colorcarro
+    def  imprimircarro ( self ):
+        print ( f "Marca del carro: { self . marca }  \ n Nombre: { self . nombrecarro }  \ n Año del carro: { self . colorcarro):
