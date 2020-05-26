@@ -1,6 +1,6 @@
 from miclase import *
 
-Celular1 = Computadoras("Samsung",1500,"negro")
+Celular1 = Celular("Samsung",1500,"negro")
 Celular1.ImprimirInfo()
 
 Perfume1 = Perfume("Gucci","ultima")
