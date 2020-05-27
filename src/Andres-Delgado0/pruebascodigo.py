@@ -1,4 +1,4 @@
-from clases import *
+from proyectosclases import *
 
 Humano1 = Humano("Mestizo", "Carlos", 170, 20, "Colombia", "Catolicismo")
 
