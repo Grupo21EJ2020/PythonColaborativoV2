@@ -8,18 +8,18 @@ class Humano():
     def imprimirinfo(self):
         print(f"Raza: {self.raza} Nombre: {self.nombre} Estatura: {self.estatura}cm Edad: {self.edad}años")
 
-
-
-class Articulo():
-    def __init__(self, nombre, cantidad, precio):
+class Materia():
+    def __init__(self, nombre, descripcion, areaconocimiento, facultad, maestro):
         self.nombre = nombre
-        self.cantidad = cantidad
-        self.precio = precio
-    
+        self.descripcion = descripcion
+        self.areaconocimiento = areaconocimiento
+        self.facultad = facultad
+        self.maestro = maestro
     def imprimirinfo(self):
-        print(f"Nombre: {self.nombre} Cantidad: {self.cantidad} Precio: ${self.precio}")
-
-
+        print(f"Nombre: {self.nombre} Descripcion: {self.descripcion}") 
+        print(f"Area de conocimiento: {self.areaconocimiento} Facultad {self.facultad}")
+        print(f" Maestro: {self.maestro}" ) 
+        
 class Personaje():
     def __init__(self, nombre, aparicion, papeljerarquico):
         self.nombre = nombre
