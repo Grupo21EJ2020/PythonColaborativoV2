@@ -1,0 +1,10 @@
+from Class import *
+
+BalonProfesional1 = BalonProfesional("S","Blanco")
+BalonProfesional1.imprimirinfo()
+
+Computadora1 = Computadora("Hp",9000)
+Computadora1.imprimirinfo()
+
+PlayStation1 = PlayStation("Pro","1tb")
+PlayStation1.imprimirinfo()
