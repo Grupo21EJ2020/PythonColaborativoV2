@@ -4,9 +4,9 @@ Humano1 = Humano("Mestizo", "Carlos", 170, 20)
 
 Humano1.imprimirinfo()
 
-Articulolimpieza = Articulo("CleanPlus", 22, 663.52)
+M1 = Materia("Antropología", "Ciencia que estudia los cambios y progresos de la humanidad", "Humanidades", "Facultad de Filosofía", "Jorge Romero") 
 
-Articulolimpieza.imprimirinfo()
+M1.imprimirinfo()
 
 Personaje1 = Personaje("Harry Osborn", "Franquicia de Spider-man", "Secundario")
 
