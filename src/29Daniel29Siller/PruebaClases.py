@@ -1,4 +1,4 @@
-from Clases.py import *
+from MisClases.py import *
 
 #ROPA
 RopaComprada = Ropa("ACA JOE", 100, "Mediana")
