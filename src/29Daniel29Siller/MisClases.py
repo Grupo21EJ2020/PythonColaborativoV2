@@ -16,3 +16,13 @@ class Videojuegos():
 
     def imprimirInfo(self):
         print( f"Genero: {self.genero}\n Tamaño: {self.tamaño}\n Duracion: {self.duracion}" )
+
+#CLASE NUMERO 3---
+class Muebles ():
+    def __init__(self, nombre, material, garantia):
+        self.nombre = nombre
+        self.material = material
+        self.garantia = garantia
+
+    def imprimirInfo(self):
+        print(f"Nombre: {self.nombre}\n Material {self.material}\n Garantia{self.garantia}")
